@@ -3,8 +3,14 @@
 //  Faster
 //
 //  Created by Daniel Isenhower on 1/6/12.
+//  daniel@perspecdev.com
 //  Copyright (c) 2012 PerspecDev Solutions LLC. All rights reserved.
 //
+//  For more details, check out the blog post about this here:
+//  http://perspecdev.com/blog/blog/2012/02/22/using-corelocation-on-ios-to-track-a-users-distance-and-speed/
+//
+//  Want to use this code in your app?  Just send me a quick email about your project
+//  and I'll grant you an MIT-style license.
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>

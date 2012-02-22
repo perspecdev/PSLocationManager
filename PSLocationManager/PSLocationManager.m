@@ -3,8 +3,14 @@
 //  Faster
 //
 //  Created by Daniel Isenhower on 1/6/12.
+//  daniel@perspecdev.com
 //  Copyright (c) 2012 PerspecDev Solutions LLC. All rights reserved.
 //
+//  For more details, check out the blog post about this here:
+//  http://perspecdev.com/blog/blog/2012/02/22/using-corelocation-on-ios-to-track-a-users-distance-and-speed/
+//
+//  Want to use this code in your app?  Just send me a quick email about your project
+//  and I'll grant you an MIT-style license.
 
 #define kDistanceFilter 5 // the minimum distance (meters) for which we want to receive location updates (see docs for CLLocationManager.distanceFilter)
 #define kHeadingFilter 30 // the minimum angular change (degrees) for which we want to receive heading updates (see docs for CLLocationManager.headingFilter)

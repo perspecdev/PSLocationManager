@@ -16,7 +16,6 @@
 		04EFB2E314F4A89300715B64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EFB2E214F4A89300715B64 /* ViewController.m */; };
 		04EFB2E614F4A89300715B64 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EFB2E414F4A89300715B64 /* ViewController_iPhone.xib */; };
 		04EFB2E914F4A89300715B64 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EFB2E714F4A89300715B64 /* ViewController_iPad.xib */; };
-		04EFB2F214F4A99700715B64 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EFB2F114F4A99700715B64 /* CoreLocation.framework */; };
 		04EFB2F314F4AFBD00715B64 /* PSLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EFB2F014F4A8C300715B64 /* PSLocationManager.m */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EFB2F214F4A99700715B64 /* CoreLocation.framework in Frameworks */,
 				04EFB2D014F4A89300715B64 /* UIKit.framework in Frameworks */,
 				04EFB2D214F4A89300715B64 /* Foundation.framework in Frameworks */,
 				04EFB2D414F4A89300715B64 /* CoreGraphics.framework in Frameworks */,
@@ -298,6 +296,7 @@
 				04EFB2EE14F4A89300715B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
