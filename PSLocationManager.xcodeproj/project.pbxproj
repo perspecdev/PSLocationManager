@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EFB2D014F4A89300715B64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EFB2CF14F4A89300715B64 /* UIKit.framework */; };
+		04EFB2D214F4A89300715B64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EFB2D114F4A89300715B64 /* Foundation.framework */; };
+		04EFB2D414F4A89300715B64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EFB2D314F4A89300715B64 /* CoreGraphics.framework */; };
+		04EFB2DA14F4A89300715B64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EFB2D814F4A89300715B64 /* InfoPlist.strings */; };
+		04EFB2DC14F4A89300715B64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EFB2DB14F4A89300715B64 /* main.m */; };
+		04EFB2E014F4A89300715B64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EFB2DF14F4A89300715B64 /* AppDelegate.m */; };
+		04EFB2E314F4A89300715B64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EFB2E214F4A89300715B64 /* ViewController.m */; };
+		04EFB2E614F4A89300715B64 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EFB2E414F4A89300715B64 /* ViewController_iPhone.xib */; };
+		04EFB2E914F4A89300715B64 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EFB2E714F4A89300715B64 /* ViewController_iPad.xib */; };
+		04EFB2F214F4A99700715B64 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EFB2F114F4A99700715B64 /* CoreLocation.framework */; };
+		04EFB2F314F4AFBD00715B64 /* PSLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EFB2F014F4A8C300715B64 /* PSLocationManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04EFB2CB14F4A89300715B64 /* PSLocationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSLocationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EFB2CF14F4A89300715B64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04EFB2D114F4A89300715B64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04EFB2D314F4A89300715B64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04EFB2D714F4A89300715B64 /* PSLocationManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PSLocationManager-Info.plist"; sourceTree = "<group>"; };
+		04EFB2D914F4A89300715B64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EFB2DB14F4A89300715B64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EFB2DD14F4A89300715B64 /* PSLocationManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSLocationManager-Prefix.pch"; sourceTree = "<group>"; };
+		04EFB2DE14F4A89300715B64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04EFB2DF14F4A89300715B64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04EFB2E114F4A89300715B64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04EFB2E214F4A89300715B64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04EFB2E514F4A89300715B64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		04EFB2E814F4A89300715B64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		04EFB2EF14F4A8C300715B64 /* PSLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSLocationManager.h; sourceTree = "<group>"; };
+		04EFB2F014F4A8C300715B64 /* PSLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSLocationManager.m; sourceTree = "<group>"; };
+		04EFB2F114F4A99700715B64 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EFB2C814F4A89300715B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EFB2F214F4A99700715B64 /* CoreLocation.framework in Frameworks */,
+				04EFB2D014F4A89300715B64 /* UIKit.framework in Frameworks */,
+				04EFB2D214F4A89300715B64 /* Foundation.framework in Frameworks */,
+				04EFB2D414F4A89300715B64 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EFB2C014F4A89200715B64 = {
+			isa = PBXGroup;
+			children = (
+				04EFB2D514F4A89300715B64 /* PSLocationManager */,
+				04EFB2CE14F4A89300715B64 /* Frameworks */,
+				04EFB2CC14F4A89300715B64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EFB2CC14F4A89300715B64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EFB2CB14F4A89300715B64 /* PSLocationManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EFB2CE14F4A89300715B64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EFB2F114F4A99700715B64 /* CoreLocation.framework */,
+				04EFB2CF14F4A89300715B64 /* UIKit.framework */,
+				04EFB2D114F4A89300715B64 /* Foundation.framework */,
+				04EFB2D314F4A89300715B64 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04EFB2D514F4A89300715B64 /* PSLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				04EFB2DE14F4A89300715B64 /* AppDelegate.h */,
+				04EFB2DF14F4A89300715B64 /* AppDelegate.m */,
+				04EFB2EF14F4A8C300715B64 /* PSLocationManager.h */,
+				04EFB2F014F4A8C300715B64 /* PSLocationManager.m */,
+				04EFB2D614F4A89300715B64 /* Supporting Files */,
+				04EFB2E114F4A89300715B64 /* ViewController.h */,
+				04EFB2E214F4A89300715B64 /* ViewController.m */,
+				04EFB2E714F4A89300715B64 /* ViewController_iPad.xib */,
+				04EFB2E414F4A89300715B64 /* ViewController_iPhone.xib */,
+			);
+			path = PSLocationManager;
+			sourceTree = "<group>";
+		};
+		04EFB2D614F4A89300715B64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EFB2D714F4A89300715B64 /* PSLocationManager-Info.plist */,
+				04EFB2D814F4A89300715B64 /* InfoPlist.strings */,
+				04EFB2DB14F4A89300715B64 /* main.m */,
+				04EFB2DD14F4A89300715B64 /* PSLocationManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EFB2CA14F4A89300715B64 /* PSLocationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EFB2EC14F4A89300715B64 /* Build configuration list for PBXNativeTarget "PSLocationManager" */;
+			buildPhases = (
+				04EFB2C714F4A89300715B64 /* Sources */,
+				04EFB2C814F4A89300715B64 /* Frameworks */,
+				04EFB2C914F4A89300715B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSLocationManager;
+			productName = PSLocationManager;
+			productReference = 04EFB2CB14F4A89300715B64 /* PSLocationManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EFB2C214F4A89200715B64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 04EFB2C514F4A89200715B64 /* Build configuration list for PBXProject "PSLocationManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04EFB2C014F4A89200715B64;
+			productRefGroup = 04EFB2CC14F4A89300715B64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EFB2CA14F4A89300715B64 /* PSLocationManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EFB2C914F4A89300715B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EFB2DA14F4A89300715B64 /* InfoPlist.strings in Resources */,
+				04EFB2E614F4A89300715B64 /* ViewController_iPhone.xib in Resources */,
+				04EFB2E914F4A89300715B64 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EFB2C714F4A89300715B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EFB2DC14F4A89300715B64 /* main.m in Sources */,
+				04EFB2E014F4A89300715B64 /* AppDelegate.m in Sources */,
+				04EFB2E314F4A89300715B64 /* ViewController.m in Sources */,
+				04EFB2F314F4AFBD00715B64 /* PSLocationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04EFB2D814F4A89300715B64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EFB2D914F4A89300715B64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04EFB2E414F4A89300715B64 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EFB2E514F4A89300715B64 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		04EFB2E714F4A89300715B64 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EFB2E814F4A89300715B64 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EFB2EA14F4A89300715B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04EFB2EB14F4A89300715B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EFB2ED14F4A89300715B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSLocationManager/PSLocationManager-Prefix.pch";
+				INFOPLIST_FILE = "PSLocationManager/PSLocationManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04EFB2EE14F4A89300715B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSLocationManager/PSLocationManager-Prefix.pch";
+				INFOPLIST_FILE = "PSLocationManager/PSLocationManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EFB2C514F4A89200715B64 /* Build configuration list for PBXProject "PSLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EFB2EA14F4A89300715B64 /* Debug */,
+				04EFB2EB14F4A89300715B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EFB2EC14F4A89300715B64 /* Build configuration list for PBXNativeTarget "PSLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EFB2ED14F4A89300715B64 /* Debug */,
+				04EFB2EE14F4A89300715B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EFB2C214F4A89200715B64 /* Project object */;
+}
