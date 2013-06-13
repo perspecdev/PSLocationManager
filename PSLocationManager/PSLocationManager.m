@@ -183,7 +183,7 @@ static const CGFloat kSpeedNotSet = -1.0;
             } else if (self.signalStrength == PSLocationManagerGPSSignalStrengthInvalid) {
                 self.allowMaximumAcceptableAccuracy = YES;
                 self.signalStrength = PSLocationManagerGPSSignalStrengthWeak;
-                if ([self.delegate respondsToSelector:@selector(locationManagerSignalConsistentlyWeak)]) {
+                if ([self.delegate respondsToSelector:@selector(locationManagerSignalConsistentlyWeak:)]) {
                     [self.delegate locationManagerSignalConsistentlyWeak:self];
                 }
             }
