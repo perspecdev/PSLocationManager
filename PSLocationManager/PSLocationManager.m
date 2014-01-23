@@ -296,7 +296,7 @@ static const CGFloat kSpeedNotSet = -1.0;
             CGFloat bestAccuracy = kRequiredHorizontalAccuracy;
             for (CLLocation *location in self.locationHistory) {
                 if ([NSDate timeIntervalSinceReferenceDate] - [location.timestamp timeIntervalSinceReferenceDate] <= kValidLocationHistoryDeltaInterval) {
-                    if (location.horizontalAccuracy < bestAccuracy && location != lastLocation) {
+                    if (location.horizontalAccuracy <= bestAccuracy && location != lastLocation) {
                         bestAccuracy = location.horizontalAccuracy;
                         bestLocation = location;
                     }
